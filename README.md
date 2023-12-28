@@ -12,3 +12,4 @@ curl --location 'localhost:8888/api/v1/bannersNpO'
 
 curl --location 'localhost:8888/api/v1/bannersNoProblem1'
 
+## Результат работы выводятся в консоль
