@@ -32,7 +32,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8888/api/v1/banners",
+					"raw": "localhost:8888/api/v1/bannersNpO",
 					"host": [
 						"localhost"
 					],
@@ -40,7 +40,7 @@
 					"path": [
 						"api",
 						"v1",
-						"banners"
+						"bannersNpO"
 					]
 				}
 			},
@@ -52,7 +52,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8888/api/v1/bannersNpO",
+					"raw": "localhost:8888/api/v1/bannersNoProblem1",
 					"host": [
 						"localhost"
 					],
@@ -60,7 +60,7 @@
 					"path": [
 						"api",
 						"v1",
-						"bannersNpO"
+						"bannersNoProblem1"
 					]
 				}
 			},
