@@ -42,14 +42,5 @@ class BannerController(
     fun getBannersNoP(): MutableList<BannerEntityNpO> = bannerNpORepository.findAll()
 
     @GetMapping(path = ["bannersNoProblem2"])
-    fun getBannersNoBug2(): MutableList<BannerEntityNpO> = bannerNpORepository.findAll
-
-    fun speca(): Specification<BannerEntity> {
-        return Specification<BannerEntity> { root, cq, cb ->
-            if (cq.resultType == BannerEntity::class.java) {
-                root.fetch("slot", JoinType.LEFT)
-            }
-            cb.and()
-        }
-    }
+    fun getBannersNoBug2(): MutableList<BannerEntityNpO> = bannerNpORepository.findAll()
 }
